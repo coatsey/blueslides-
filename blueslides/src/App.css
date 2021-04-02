@@ -6,9 +6,10 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .hunting,
+  .guns,
+  .fishing,
+  .ammo {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,7 +17,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .hunting {
     background-image: url('./images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -25,8 +26,8 @@
     font-size: 100px;
   }
   
-  .products {
-    background-image: url('./images/img-1.jpg');
+  .fishing {
+    background-image: url('./images/Fishing-Wallpaper.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -34,7 +35,16 @@
     font-size: 100px;
   }
 
-  .sign-up {
+  .guns {
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .ammo {
     background-image: url('./images/img-8.jpg');
     background-position: center;
     background-size: cover;
