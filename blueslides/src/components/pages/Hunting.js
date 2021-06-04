@@ -1,16 +1,16 @@
-import React from 'react';
-import '../../App.css';
-// import Cards from '../Cards';
-import Footer from '../Footer';
-// import Hero from '../Hero';
+import React from "react";
+import "../../App.css";
+import Footer from "../Footer";
+import Gallery from "../Gallery";
 
-function Home () {
-    return (
-        <>
-            <p className="hunting"></p>
-            <Footer />
-        </>
-    )
+
+function Home() {
+  return (
+    <>
+      <Gallery />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

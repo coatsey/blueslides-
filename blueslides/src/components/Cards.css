@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: #bbcab5;
   }
   
   h1 {
@@ -30,6 +30,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    background-color: #fff;
   }
   
   .cards__item__link {
