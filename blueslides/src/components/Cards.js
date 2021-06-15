@@ -15,24 +15,18 @@ function Cards() {
               label="Hunting"
               path="/hunting"
             />
-            <CardItem
+          </ul>
+          <ul className="cards__items">
+             <CardItem
               src="images/grandpa fish.jpg"
               text="Fishing"
               label="Fishing"
               path="/fishing"
             />
-          </ul>
-          <ul className="cards__items">
-          <CardItem
-              src="images/ammo.jpg"
-              text="Ammo"
-              label="Ammo"
-              path="/ammo"
-            />
              <CardItem
               src="images/3006.jpg"
-              text="Guns"
-              label="Guns"
+              text="Guns & Ammo"
+              label="Guns & Ammo"
               path="/guns"
             />
           </ul>

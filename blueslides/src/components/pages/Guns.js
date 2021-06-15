@@ -1,6 +1,16 @@
 import React from 'react';
 import '../../App.css';
+import Cards2 from '../cards/Cards2';
+import Footer from '../Footer';
 
-export default function Guns() {
-    return <h1 className='guns'>Guns</h1>
-}
+function Home() {
+    return (
+      <>
+        <Cards2 />
+        <Footer />
+      </>
+    );
+  }
+  
+  export default Home;
+  

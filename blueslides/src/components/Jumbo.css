@@ -1,0 +1,22 @@
+.card-mb-3 {
+    padding: 100px;
+    background-color: #bbcab5;
+    max-width: 100%;
+}
+.card-body{
+    padding-left: 15px;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.card-title{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+}
+.card-text{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}

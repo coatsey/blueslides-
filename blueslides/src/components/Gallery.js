@@ -8,6 +8,8 @@ import Img3 from "../images/img3.jpg";
 import Img4 from "../images/img4.jpg";
 import Img5 from "../images/img5.jpg";
 import Img6 from "../images/img6.jpg";
+import Img7 from "../images/img7.jpg";
+import Img8 from "../images/img8.jpg";
 
 const Gallery = () => {
   let data = [
@@ -34,6 +36,14 @@ const Gallery = () => {
     {
       id: 6,
       imgSrc: Img6,
+    },
+    {
+      id: 7,
+      imgSrc: Img7,
+    },
+    {
+      id: 8,
+      imgSrc: Img8,
     },
   ];
   const [model, setModel] = useState(false);
