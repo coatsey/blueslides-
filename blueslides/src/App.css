@@ -36,11 +36,11 @@
   }
 
   .guns {
-    background-image: url('./images/img-8.jpg');
+    background-color: #dee6db;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #dee6db;
     font-size: 100px;
   }
 

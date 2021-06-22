@@ -1,6 +1,6 @@
 .card-mb-3 {
     padding: 100px;
-    background-color: #bbcab5;
+    background-color: #dee6db;
     max-width: 100%;
 }
 .card-body{
@@ -13,10 +13,10 @@
 .card-title{
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 50px;
+    font-size: 75px;
 }
 .card-text{
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }

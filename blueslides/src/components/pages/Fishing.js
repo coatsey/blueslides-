@@ -1,6 +1,19 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
+import FishGall from '../FishGall';
+import FishJumbo from '../FishJumbo';
 
-export default function Fishing() {
-    return <h1 className='fishing'>Fishing</h1>
-}
+
+function Home() {
+    return (
+      <>
+        <FishJumbo />
+        <FishGall />
+        <Footer />
+      </>
+    );
+  }
+  
+  export default Home;
+  

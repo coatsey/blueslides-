@@ -1,20 +1,28 @@
-import React from 'react';
-import './GunCard.css';
+import React from "react";
+import "./GunCard.css";
 
-
-const GunCards = props =>{
-    return(
-       <div className="card text-center">
-           <div className="overflow">
-                <img scr={props.imgsrc} alt="target" className="card-img-top"/>
-           </div>
-       <div className= "card-body text-dark">
-            <h4 className="card-title">{props.title}</h4>
-            <p className="card-text text-secondary">Hihow are you and why do you want tot go the the park and look at the birds?
-            </p>
-       </div>
-       </div>
-    );
-}
+const GunCards = (props) => {
+  return (
+    <div className="card-container">
+      <div className="image-container">
+        <img src={props.img} alt="" />
+      </div>
+      <div className="card-content">
+        <div className="card-title">
+          <h3>{props.title}</h3>
+        </div>
+        <div className="card-body">
+          <p>{props.body}</p>
+        </div>
+        <div className="card-price">
+          <p>{props.price}</p>
+        </div>
+        <div className="card-email">
+          <p>{props.email}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default GunCards;
